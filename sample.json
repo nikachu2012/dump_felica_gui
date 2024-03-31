@@ -1,0 +1,30 @@
+{
+    "IDm": "01FE 000000000000",
+    "PMm": "FFFF FFFFFFFFFFFF",
+    "system:": [
+        {
+            "systemCode": "0003",
+            "area": [
+                {
+                    "areaCode": 0,
+                    "canCreateChildArea": true,
+                    "endServiceCode": "fffe",
+                    "key": "DES",
+                    "areaKey": "ffffffffffffffff",
+                    "areaKeyVersion": 1,
+                    "service": [
+                        {
+                            "serviceCode": 1,
+                            "serviceType": "random",
+                            "isWithKey": true,
+                            "data": [
+                                "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+                                "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
